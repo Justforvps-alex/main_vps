@@ -5,6 +5,9 @@ $useragent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+curl_setopt($ch, CURLOPT_PROXY, '34.96.248.174:443');
+curl_setopt($ch, CURLOPT_PROXYUSERPWD, 'vps:12345');
+curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HEADER, 1);
 curl_setopt($ch, CURLOPT_USERAGENT, $useragent);
