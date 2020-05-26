@@ -4,7 +4,7 @@ ini_set('max_execution_time', 86400);
 set_time_limit(86400);
 error_reporting(0);
 require_once 'simple_html_dom.php';
-require_once 'classes.php';
+//require_once 'classes.php';
 require_once 'functions.php';
 $main_url=$_GET['url'];
 $number_of_phones=$_GET['n'];
