@@ -8,6 +8,7 @@ require_once 'classes.php';
 require_once 'functions.php';
 $main_url=$_GET['url'];
 $number_of_phones=$_GET['n'];
+$GLOBALS['number_proxy']=0;
 $page_number=1;
 $phone_number=0;
 //Выводим кнопку
