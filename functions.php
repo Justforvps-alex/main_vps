@@ -112,7 +112,7 @@ function find_phone_url($id, $phone_item_only0, $phone_item_only1, $phone_item_o
 		//Проверка когда 1 отличается
 		elseif($array_keys0[$a]==$array_keys1[$a] and $array_keys0[$a]!=$array_keys2[$a])
 		{
-			$code_key=$array2[$a];
+			$code_key=$array_keys2[$a];
 			if($array_keys0[$a]==$array_keys2[$a+1]) { $k=2; break;}	
 		}
 		elseif($array_keys0[$a]==$array_keys2[$a] and $array_keys0[$a]!=$array_keys1[$a])
